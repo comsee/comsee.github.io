@@ -169,7 +169,10 @@
 
     <div id="footer">
       <div class="container">
-        <p>&copy; 2분반 9조        </p>
+        <p>&copy; 2015 Name Lastname
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Diary Blog</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
       </div>
     </div>
 

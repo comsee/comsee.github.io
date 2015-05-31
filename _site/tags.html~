@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Movie</title>
+    <title>Music</title>
     
     <meta name="author" content="Name Lastname">
 
@@ -54,7 +54,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Diary Blog</a>
+          <a class="navbar-brand" href="/">Jekyll Bootstrap</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,7 +69,7 @@
     
       
       	
-      	<li class="active"><a href="/archieve.html" class="active">Movie</a></li>
+      	<li><a href="/archieve.html">Movie</a></li>
       	
       
     
@@ -109,7 +109,7 @@
     
       
       	
-      	<li><a href="/tags.html">Music</a></li>
+      	<li class="active"><a href="/tags.html" class="active">Music</a></li>
       	
       
     
@@ -130,32 +130,30 @@
       <div class="container">
         
 <div class="page-header">
-  <h1>Movie </h1>
-
+  <h1>Music </h1>
 <ul>
-<li><a href="/mad.html">Mad Max</a></li>
-<li><a href="/말할 수 없는 비밀.html">말할 수 없는 비밀</a></li>
+<li><a href="/tchu.html">Tchu Tchu Tcha</a></li>
+<li><a href="/투빅.html">투빅 - 또 한 여잘 울렸어</a></li>
 </ul>
-
 </div>
 
 <div class="row">
   <div class="col-xs-12">
     
 
-
-
+<ul class="tag_box inline">
+    
+  
 
 
   
     
-    
-    
-    
   
-    
-    
-  
+
+
+
+</ul>
+
 
 
 
@@ -169,7 +167,10 @@
 
     <div id="footer">
       <div class="container">
-        <p>&copy; 2분반 9조        </p>
+        <p>&copy; 2015 Name Lastname
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
       </div>
     </div>
 

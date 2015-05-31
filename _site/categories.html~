@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Movie</title>
+    <title>Food</title>
     
     <meta name="author" content="Name Lastname">
 
@@ -69,7 +69,7 @@
     
       
       	
-      	<li class="active"><a href="/archieve.html" class="active">Movie</a></li>
+      	<li><a href="/archieve.html">Movie</a></li>
       	
       
     
@@ -81,7 +81,7 @@
     
       
       	
-      	<li><a href="/categories.html">Food</a></li>
+      	<li class="active"><a href="/categories.html" class="active">Food</a></li>
       	
       
     
@@ -130,32 +130,32 @@
       <div class="container">
         
 <div class="page-header">
-  <h1>Movie </h1>
-
+  <h1>Food </h1>
 <ul>
-<li><a href="/mad.html">Mad Max</a></li>
-<li><a href="/말할 수 없는 비밀.html">말할 수 없는 비밀</a></li>
+<li><a href="/남포동.html">남포동</a></li>
+<li><a href="/순하리.html">순하리</a></li>
+<li><a href="/전주초코파이.html">전주초코파이</a></li>
+<li><a href="/좋은데이.html">좋은데이</a></li>
 </ul>
-
 </div>
 
 <div class="row">
   <div class="col-xs-12">
     
 
-
-
+<ul class="tag_box inline">
+  
+  
 
 
   
     
-    
-    
-    
   
-    
-    
-  
+
+
+</ul>
+
+
 
 
 
@@ -169,7 +169,10 @@
 
     <div id="footer">
       <div class="container">
-        <p>&copy; 2분반 9조        </p>
+        <p>&copy; 2015 Name Lastname
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Diary Blog</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
       </div>
     </div>
 
