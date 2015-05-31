@@ -1,3 +1,16 @@
+---
+layout: page
+title: Game
+header: Pages
+group: navigation
+---
+{% include JB/setup %}
+
+<h2>All Pages</h2>
+<ul>
+{% assign pages_list = site.pages %}
+{% include JB/pages_list %}
+</ul>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -5,7 +18,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Movie</title>
+    <title>Game</title>
     
     <meta name="author" content="Name Lastname">
 
@@ -69,7 +82,7 @@
     
       
       	
-      	<li class="active"><a href="/archieve.html" class="active">Movie</a></li>
+      	<li><a href="/archieve.html">Movie</a></li>
       	
       
     
@@ -93,7 +106,7 @@
     
       
       	
-      	<li><a href="/pages.html">Game</a></li>
+      	<li class="active"><a href="/pages.html" class="active">Game</a></li>
       	
       
     
@@ -130,32 +143,17 @@
       <div class="container">
         
 <div class="page-header">
-  <h1>Movie </h1>
-
+  <h1>Game </h1>
 <ul>
-<li><a href="/mad.html">Mad Max</a></li>
-<li><a href="/말할 수 없는 비밀.html">말할 수 없는 비밀</a></li>
+<li><a href="/witcher3.html">Witcher3</a></li>
+<li><a href="/gta5.html">GTA5</a></li>
 </ul>
-
 </div>
 
 <div class="row">
   <div class="col-xs-12">
     
 
-
-
-
-
-  
-    
-    
-    
-    
-  
-    
-    
-  
 
 
 
@@ -169,7 +167,8 @@
 
     <div id="footer">
       <div class="container">
-        <p>&copy; 2분반 9조        </p>
+        <p>&copy; 2분반 9조
+        </p>
       </div>
     </div>
 
@@ -185,3 +184,4 @@
     <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
+
